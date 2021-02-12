@@ -1,0 +1,79 @@
+[2020-11-17 02:46:28] [<module>] [INFO] 
+********************************WELCOME*********************************
+[2020-11-17 02:46:28] [parse_config_file] [INFO] Inside parse_config()
+[2020-11-17 02:46:28] [parse_config_file] [DEBUG] Default location: /home/dln45/ftpserver.conf
+[2020-11-17 02:46:28] [parse_config_file] [DEBUG] Reading Server FTP config file: 
+[2020-11-17 02:46:28] [parse_config_file] [DEBUG] port_mode = NO
+
+[2020-11-17 02:46:28] [set_config] [INFO] Inside set_config()
+[2020-11-17 02:46:28] [set_config] [DEBUG] Attribute: port_mode. Value: NO.
+[2020-11-17 02:46:28] [set_config] [DEBUG] Attribute port_mode RESET!
+[2020-11-17 02:46:28] [parse_config_file] [DEBUG] pasv_mode = YES
+
+[2020-11-17 02:46:28] [set_config] [INFO] Inside set_config()
+[2020-11-17 02:46:28] [set_config] [DEBUG] Attribute: pasv_mode. Value: YES.
+[2020-11-17 02:46:28] [set_config] [DEBUG] Attribute pasv_mode SET!
+[2020-11-17 02:46:28] [parse_config_file] [DEBUG] ssl_mode = NO
+
+[2020-11-17 02:46:28] [set_config] [INFO] Inside set_config()
+[2020-11-17 02:46:28] [set_config] [DEBUG] Attribute: ssl_mode. Value: NO.
+[2020-11-17 02:46:28] [set_config] [DEBUG] Attribute ssl_mode RESET!
+[2020-11-17 02:46:28] [parse_config_file] [DEBUG] Applying FTP server config completed.
+[2020-11-17 02:46:28] [get_accounts_dict] [INFO] Inside get_accounts_dict()
+[2020-11-17 02:46:28] [server_init] [INFO] Inside server_init()
+[2020-11-17 02:46:28] [server_init] [DEBUG] FTP Port used: 50007
+[2020-11-17 02:46:28] [server_init] [DEBUG] Server socket opened (timeout=10). Listening for connection...
+[2020-11-17 02:46:31] [server_init] [DEBUG] Main: Creating thread for: 10.246.251.11
+[2020-11-17 02:46:31] [server_init] [DEBUG] Main: Starting thread for: 10.246.251.11
+[2020-11-17 02:46:31] [work_with_client] [INFO] Inside work_with_client()
+[2020-11-17 02:46:31] [work_with_client] [DEBUG] >>> Entering FTP state IDLE
+[2020-11-17 02:46:31] [work_with_client] [DEBUG] Connected from: 10.246.251.11. Data_port: 54044
+[2020-11-17 02:46:31] [work_with_client] [DEBUG] >>> Entering FTP state AUTHENTICATE
+[2020-11-17 02:46:31] [get_line] [INFO] Inside get_line()
+[2020-11-17 02:46:39] [get_line] [INFO] Inside get_line()
+[2020-11-17 02:46:39] [authenticate] [INFO] Inside authenticate()
+[2020-11-17 02:46:39] [authenticate] [DEBUG] User command received: USER cs472
+[2020-11-17 02:46:39] [authenticate] [DEBUG] Password command received: PASS hw2ftp
+[2020-11-17 02:46:39] [authenticate] [DEBUG] Provided username:cs472.
+
+[2020-11-17 02:46:40] [authenticate] [DEBUG] Provided password:$2b$14$/M3fu0Cf4g6BAv8OhRxaBuAHByJLtXZYmtW0UnYdRilSfq9F5tgPS.
+
+[2020-11-17 02:46:40] [authenticate] [DEBUG] username: "cs472" is valid
+[2020-11-17 02:46:41] [authenticate] [DEBUG] Authentication completed successfully
+[2020-11-17 02:46:41] [work_with_client] [DEBUG] >>> Entering FTP state CONNECTED
+[2020-11-17 02:46:41] [get_line] [INFO] Inside get_line()
+[2020-11-17 02:46:45] [work_with_client] [DEBUG] >>> Entering FTP state CONNECTED
+[2020-11-17 02:46:45] [get_line] [INFO] Inside get_line()
+[2020-11-17 02:46:51] [work_with_client] [DEBUG] >>> Entering FTP state CONNECTED
+[2020-11-17 02:46:51] [get_line] [INFO] Inside get_line()
+[2020-11-17 02:47:02] [work_with_client] [DEBUG] Disconnected from: 10.246.251.11
+[2020-11-17 02:47:02] [work_with_client] [DEBUG] >>> Entering FTP state END
+[2020-11-17 02:47:32] [server_init] [DEBUG] Main: Creating thread for: 10.246.251.11
+[2020-11-17 02:47:32] [server_init] [DEBUG] Main: Starting thread for: 10.246.251.11
+[2020-11-17 02:47:32] [work_with_client] [INFO] Inside work_with_client()
+[2020-11-17 02:47:32] [work_with_client] [DEBUG] >>> Entering FTP state IDLE
+[2020-11-17 02:47:32] [work_with_client] [DEBUG] Connected from: 10.246.251.11. Data_port: 54058
+[2020-11-17 02:47:32] [work_with_client] [DEBUG] >>> Entering FTP state AUTHENTICATE
+[2020-11-17 02:47:32] [get_line] [INFO] Inside get_line()
+[2020-11-17 02:47:39] [get_line] [INFO] Inside get_line()
+[2020-11-17 02:47:39] [authenticate] [INFO] Inside authenticate()
+[2020-11-17 02:47:39] [authenticate] [DEBUG] User command received: USER a
+[2020-11-17 02:47:39] [authenticate] [DEBUG] Password command received: PASS b
+[2020-11-17 02:47:39] [authenticate] [DEBUG] Provided username:a.
+
+[2020-11-17 02:47:40] [authenticate] [DEBUG] Provided password:$2b$14$d0q5hhcbvBDkZ7EDU5.2C.MXV.rfZxoKzPMkFWXAs68Lp0Ds/zKu..
+
+[2020-11-17 02:47:40] [authenticate] [DEBUG] username: "a" is valid
+[2020-11-17 02:47:41] [authenticate] [DEBUG] Authentication completed successfully
+[2020-11-17 02:47:41] [work_with_client] [DEBUG] >>> Entering FTP state CONNECTED
+[2020-11-17 02:47:41] [get_line] [INFO] Inside get_line()
+[2020-11-17 02:47:51] [work_with_client] [DEBUG] >>> Entering FTP state CONNECTED
+[2020-11-17 02:47:51] [get_line] [INFO] Inside get_line()
+[2020-11-17 02:47:53] [work_with_client] [DEBUG] >>> Entering FTP state CONNECTED
+[2020-11-17 02:47:53] [get_line] [INFO] Inside get_line()
+[2020-11-17 02:47:59] [work_with_client] [DEBUG] >>> Entering FTP state CONNECTED
+[2020-11-17 02:47:59] [get_line] [INFO] Inside get_line()
+[2020-11-17 02:48:02] [work_with_client] [DEBUG] >>> Entering FTP state CONNECTED
+[2020-11-17 02:48:02] [get_line] [INFO] Inside get_line()
+[2020-11-17 02:48:08] [work_with_client] [DEBUG] Disconnected from: 10.246.251.11
+[2020-11-17 02:48:08] [work_with_client] [DEBUG] >>> Entering FTP state END

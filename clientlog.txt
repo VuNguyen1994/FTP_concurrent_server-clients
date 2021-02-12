@@ -1,0 +1,54 @@
+[2020-11-17 02:46:31] [init_client] [INFO] ********************************WELCOME*********************************
+[2020-11-17 02:46:31] [init_client] [INFO] Creating socket to host
+[2020-11-17 02:46:31] [init_client] [DEBUG] Connecting to host,port: 10.246.251.11, 50007
+[2020-11-17 02:46:31] [get_server_response] [DEBUG] Server response: 220 Welcome to DLN45 FTP Server - CS472.
+[2020-11-17 02:46:39] [login] [INFO] Logging in to host
+[2020-11-17 02:46:39] [login] [DEBUG] Using username: cs472, password: hw2ftp
+[2020-11-17 02:46:39] [get_server_response] [DEBUG] Server response: 331 Please specify the password.
+[2020-11-17 02:46:41] [get_server_response] [DEBUG] Server response: 230 Login Successful.
+[2020-11-17 02:46:45] [get_command] [DEBUG] Command received: PASV
+[2020-11-17 02:46:45] [parsecmd] [INFO] Inside parsecmd()
+[2020-11-17 02:46:45] [parsecmd] [DEBUG] Received command from user: PASV
+[2020-11-17 02:46:45] [get_server_response] [DEBUG] Server response: 227 Entering Passive Mode (10,246,251,11,211,28).
+[2020-11-17 02:46:45] [parsecmd] [DEBUG] Server response: 227 Entering Passive Mode (10,246,251,11,211,28).
+[2020-11-17 02:46:51] [get_command] [DEBUG] Command received: PWD
+[2020-11-17 02:46:51] [parsecmd] [INFO] Inside parsecmd()
+[2020-11-17 02:46:51] [parsecmd] [DEBUG] Received command from user: PWD
+[2020-11-17 02:46:51] [get_server_response] [DEBUG] Server response: 257 "/home2/home-d/dln45/CS472" is current directory.
+[2020-11-17 02:46:51] [parsecmd] [DEBUG] Server response: 257 "/home2/home-d/dln45/CS472" is current directory.
+[2020-11-17 02:47:02] [get_command] [DEBUG] Command received: QUIT
+[2020-11-17 02:47:02] [parsecmd] [INFO] Inside parsecmd()
+[2020-11-17 02:47:02] [parsecmd] [DEBUG] Received command from user: QUIT
+[2020-11-17 02:47:02] [get_server_response] [DEBUG] Server response: 221 Goodbye.
+[2020-11-17 02:47:32] [init_client] [INFO] ********************************WELCOME*********************************
+[2020-11-17 02:47:32] [init_client] [INFO] Creating socket to host
+[2020-11-17 02:47:32] [init_client] [DEBUG] Connecting to host,port: 10.246.251.11, 50007
+[2020-11-17 02:47:32] [get_server_response] [DEBUG] Server response: 220 Welcome to DLN45 FTP Server - CS472.
+[2020-11-17 02:47:39] [login] [INFO] Logging in to host
+[2020-11-17 02:47:39] [login] [DEBUG] Using username: a, password: b
+[2020-11-17 02:47:39] [get_server_response] [DEBUG] Server response: 331 Please specify the password.
+[2020-11-17 02:47:41] [get_server_response] [DEBUG] Server response: 230 Login Successful.
+[2020-11-17 02:47:51] [get_command] [DEBUG] Command received: CDUP
+[2020-11-17 02:47:51] [parsecmd] [INFO] Inside parsecmd()
+[2020-11-17 02:47:51] [parsecmd] [DEBUG] Received command from user: CDUP
+[2020-11-17 02:47:51] [get_server_response] [DEBUG] Server response: 250 Directory successfully changed.
+[2020-11-17 02:47:51] [parsecmd] [DEBUG] Server response: 250 Directory successfully changed.
+[2020-11-17 02:47:53] [get_command] [DEBUG] Command received: PWD
+[2020-11-17 02:47:53] [parsecmd] [INFO] Inside parsecmd()
+[2020-11-17 02:47:53] [parsecmd] [DEBUG] Received command from user: PWD
+[2020-11-17 02:47:53] [get_server_response] [DEBUG] Server response: 257 "/home2/home-d/dln45" is current directory.
+[2020-11-17 02:47:53] [parsecmd] [DEBUG] Server response: 257 "/home2/home-d/dln45" is current directory.
+[2020-11-17 02:47:59] [get_command] [DEBUG] Command received: cd CS472
+[2020-11-17 02:47:59] [parsecmd] [INFO] Inside parsecmd()
+[2020-11-17 02:47:59] [parsecmd] [DEBUG] Received command from user: cd CS472
+[2020-11-17 02:47:59] [get_server_response] [DEBUG] Server response: 250 Directory successfully changed.
+[2020-11-17 02:47:59] [parsecmd] [DEBUG] Server response: 250 Directory successfully changed.
+[2020-11-17 02:48:02] [get_command] [DEBUG] Command received: PWD
+[2020-11-17 02:48:02] [parsecmd] [INFO] Inside parsecmd()
+[2020-11-17 02:48:02] [parsecmd] [DEBUG] Received command from user: PWD
+[2020-11-17 02:48:02] [get_server_response] [DEBUG] Server response: 257 "/home2/home-d/dln45/CS472" is current directory.
+[2020-11-17 02:48:02] [parsecmd] [DEBUG] Server response: 257 "/home2/home-d/dln45/CS472" is current directory.
+[2020-11-17 02:48:08] [get_command] [DEBUG] Command received: quit
+[2020-11-17 02:48:08] [parsecmd] [INFO] Inside parsecmd()
+[2020-11-17 02:48:08] [parsecmd] [DEBUG] Received command from user: quit
+[2020-11-17 02:48:08] [get_server_response] [DEBUG] Server response: 221 Goodbye.
